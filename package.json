@@ -1,6 +1,6 @@
 {
   "name": "curtis-ai-porter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Port your AI chat history — ChatGPT, Claude, DeepSeek, anything — into Curtis .curt files and Obsidian-ready markdown, and back out to continuation packs, ChatGPT-shape JSON or API JSONL. Local-first: nothing leaves your machine.",
   "type": "module",
   "bin": {
