@@ -151,6 +151,8 @@ The contract tests are the load-bearing guarantee: they feed the porter's output
 
 ## Status
 
+v1.0.1 — relicensed to **MIT** (see [License](#license)). The v1.0.0 tag remains BUSL-1.1 at its tag (converting to MIT on 2030-10-12).
+
 v1.0.0 — first release under the Curtis AI Porter name. Source-available under BUSL-1.1 (converts to MIT on 2030-10-12). Predecessor releases (Curtis AI Chat Porter v0.2.x) were MIT and are discontinued.
 
 v0.2.6 — relicensed from MIT to BUSL-1.1 (source-available; converts to MIT on 2030-10-12). All releases prior to v0.2.6 remain MIT.
