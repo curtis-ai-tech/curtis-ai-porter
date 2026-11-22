@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // Source parser behavior: ChatGPT mapping trees, Claude exports, generic
 // JSON transcripts, role-headed markdown — including what gets dropped.

@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // Newell NMOJI — the author brand button pinned to the settings About
 // footer. Embedded as a data URI so the plugin stays one distributable;

@@ -165,4 +165,4 @@ Part of the [Curtis](https://github.com/curtis-ai-tech/curtis-ai-chat) family.
 
 ## License
 
-Source-available under [BUSL-1.1](LICENSE) — Copyright (c) 2026 Jordan Newell (Curtis AI). Converts to MIT on 2030-10-12 (the Change Date); releases prior to v0.2.6 remain MIT.
+MIT — Copyright (c) 2026 Jordan Newell (Curtis AI). Tags v0.2.6 through v1.0.0 were distributed under BUSL-1.1 and remain so at their tags (converting to MIT on 2030-10-12); releases from v1.0.1 onward are MIT.

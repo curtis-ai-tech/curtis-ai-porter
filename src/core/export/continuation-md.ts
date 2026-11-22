@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // Continuation pack — the flagship export: one markdown file per conversation
 // that the user attaches to a fresh ChatGPT / Claude / Gemini chat to resume

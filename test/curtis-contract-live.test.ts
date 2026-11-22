@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // Contract test — LIVE plugin parsers. Identical suite to the vendored run,
 // but importing straight from the Curtis plugin repo checked out next door,

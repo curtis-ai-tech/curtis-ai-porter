@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // Detection: extension routing, structural JSON signatures, zip scanning,
 // Curtis markdown recognition, normalization and dedupe keys.

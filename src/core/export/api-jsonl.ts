@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // API JSONL emitter — the OpenAI / Anthropic request shape (and the close
 // cousin Open WebUI-style importers read): one conversation per line,

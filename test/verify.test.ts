@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // verify.ts contract: native files parse and re-serialize byte-identical;
 // damage and drift are reported, never repaired. The hand-edited-markdown

@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // Curtis AI Porter web app — everything client-side.
 // Drop/paste → core converters (same code as the CLI) → zip downloads.

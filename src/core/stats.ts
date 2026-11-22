@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // Aggregate analytics over a set of conversations — the read-only summary the
 // CLI and web page show for a corpus. Pure data-in/string-out like the rest of

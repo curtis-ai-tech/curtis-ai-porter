@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // Release-consistency artifacts: the version triad, the license story, the
 // SPDX header wall, and (when built) the shape of the shipped bundles. These
@@ -34,18 +34,18 @@ test('artifacts: version triad — package.json, manifest.json, PORTER_VERSION, 
 
 test('artifacts: manifest description states the license correctly', () => {
 	// The description is what the Obsidian community-plugin browser shows every
-	// user — it must not carry the pre-relicense "free, MIT" claim.
-	assert.doesNotMatch(manifest.description, /\bMIT\b/i, 'description no longer claims MIT');
+	// user — it must carry the MIT claim now that the relicensing has landed.
+	assert.match(manifest.description, /\bMIT\b/i, 'description states the MIT license');
 });
 
 test('artifacts: license story agrees everywhere', () => {
-	assert.equal(pkg.license, 'BUSL-1.1');
+	assert.equal(pkg.license, 'MIT');
 	const license = readFileSync(path.join(root, 'LICENSE'), 'utf8');
-	assert.ok(license.includes('Business Source License 1.1'), 'LICENSE is BUSL-1.1');
+	assert.ok(license.includes('MIT License'), 'LICENSE is MIT');
 	const readme = readFileSync(path.join(root, 'README.md'), 'utf8');
-	// The Change Date must match what the README promises (MIT conversion).
-	assert.ok(license.includes('2030-10-12'), 'LICENSE pins the 2030-10-12 Change Date');
-	assert.ok(readme.includes('2030-10-12'), 'README names the 2030-10-12 MIT conversion date');
+	// MIT carries no Change Date; the README records the tag history (v0.2.6-v1.0.0 were BUSL-1.1).
+	assert.ok(readme.includes('2030-10-12'), 'README names the 2030-10-12 BUSL-to-MIT conversion date');
+	assert.ok(readme.includes('MIT'), 'README states the MIT license');
 });
 
 test('artifacts: every source file carries the SPDX header', () => {
@@ -57,7 +57,7 @@ test('artifacts: every source file carries the SPDX header', () => {
 		for (const f of readdirSync(dir, { withFileTypes: true })) {
 			const p = path.join(dir, f.name);
 			if (f.isDirectory()) walk(p);
-			else if (f.name.endsWith('.ts') && !readFileSync(p, 'utf8').includes('SPDX-License-Identifier: BUSL-1.1')) missing.push(path.relative(root, p));
+			else if (f.name.endsWith('.ts') && !readFileSync(p, 'utf8').includes('SPDX-License-Identifier: MIT')) missing.push(path.relative(root, p));
 		}
 	};
 	for (const d of dirs) walk(path.join(root, d));
@@ -88,6 +88,6 @@ test('artifacts: built plugin bundle carries the banner and no dangling sourcema
 	if (!existsSync(bundle)) return;
 	const body = readFileSync(bundle, 'utf8');
 	assert.ok(body.startsWith('// Curtis AI Porter'), 'plugin banner is first');
-	assert.ok(body.includes('SPDX-License-Identifier: BUSL-1.1'), 'banner carries the SPDX line');
+	assert.ok(body.includes('SPDX-License-Identifier: MIT'), 'banner carries the SPDX line');
 	assert.ok(!body.includes('sourceMappingURL='), 'no dangling sourceMappingURL');
 });
