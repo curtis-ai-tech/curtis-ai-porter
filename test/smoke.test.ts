@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // End-to-end smoke: the built dist/cli.mjs run as a real subprocess against
 // the demo fixtures — every command's happy path, plus a convert → export

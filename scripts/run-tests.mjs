@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // Test runner shim: hands every built bundle in dist-test/ to `node --test`
 // as explicit paths. Needed because node --test only expands glob arguments

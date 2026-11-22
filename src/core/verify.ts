@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // Round-trip verification for native Curtis formats — the "round-trip
 // guarantee" made user-visible: a native file parses, and parse → serialize

@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // Id generation — shapes are normative in docs/curt-format.md:
 //   conversation: conv_<ms>_<9 base36 chars>   message: msg_<ms>_<6 base36 chars>

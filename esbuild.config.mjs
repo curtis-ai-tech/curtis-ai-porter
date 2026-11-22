@@ -93,7 +93,7 @@ async function buildPlugin() {
 		target: 'es2022',
 		external: ['obsidian'],
 		banner: {
-			js: '// Curtis AI Porter — Copyright (c) 2026 Jordan Newell (Curtis AI)\n// SPDX-License-Identifier: BUSL-1.1',
+			js: '// Curtis AI Porter — Copyright (c) 2026 Jordan Newell (Curtis AI)\n// SPDX-License-Identifier: MIT',
 		},
 		outfile: 'main.js',
 		sourcemap: false,

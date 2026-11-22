@@ -1,5 +1,5 @@
 // Copyright (c) 2026 Jordan Newell (Curtis AI)
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 
 // Continuation pack: target preambles, the provenance line, budget
 // accounting via buildContinuation() info, and the back-compat delegate.
